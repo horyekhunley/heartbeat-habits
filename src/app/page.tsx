@@ -47,7 +47,7 @@ export default function Onboarding() {
 
     setCookie('room_id', room.id)
     setCookie('user_id', user.id)
-    router.push('/dashboard')
+    router.push('dashboard/')
   }
 
   const handleJoinRoom = async () => {
@@ -80,7 +80,7 @@ export default function Onboarding() {
 
     setCookie('room_id', room.id)
     setCookie('user_id', user.id)
-    router.push('/dashboard')
+    router.push('dashboard/')
   }
 
   return (
